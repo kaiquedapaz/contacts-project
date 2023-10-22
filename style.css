@@ -1,0 +1,43 @@
+#contacts {
+    list-style: none;  
+    padding: 0px;
+}
+
+#contacts > li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    margin: 0;
+    padding: 16px;
+    text-align: left;
+    border-bottom: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#contacts > li:last-child {
+    border: none;
+}
+
+#conteiner {
+    background-color:   white;
+    border: solid 1px gray;
+    border-radius: 5px;
+    padding: 0;
+    margin: 50px;
+    width: 60%;
+    height: 330px;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 5px;
+    background-color: #d34843;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: red;
+}
